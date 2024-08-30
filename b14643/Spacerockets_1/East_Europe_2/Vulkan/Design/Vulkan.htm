@@ -1,0 +1,350 @@
+<html>
+
+<head>
+
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Vulkan HLV, Design</title>
+<base target="_self">
+</head>
+
+<body background="/Spacerockets_1/East_Europe_2/image/pad.jpg">
+ 
+
+<div align="center">
+ <center>
+ <table border="1" width="44%" cellspacing="0" height="0" cellpadding="0" style="border-collapse: collapse" bordercolor="#111111" bgcolor="#FFFFFF">
+  <tr>
+   <td align="right" width="30%" bgcolor="#FFFF00" height="25" colspan="3" nowrap>
+   <p align="center"><font size="2"><b>U.S.S.R.</b></font></p>
+   </td>
+   <td width="14%" align="center" height="25" bgcolor="#FFFFCC" colspan="2" nowrap><font size="2"><b>Vulkan HLV</b></font></td>
+  </tr>
+  <tr>
+   <td align="center" valign="middle" width="5%" nowrap rowspan="10" height="1">
+   <b><font size="2">Overall<br>
+   Vehicle</font></b></td>
+   <td align="left" valign="middle" width="20%" nowrap height="1">
+   <font size="2">Operational</font></td>
+   <td align="center" valign="top" width="5%" nowrap height="1"><font size="2">from</font></td>
+   <td valign="top" width="14%" nowrap height="1" align="center" colspan="2">
+   <font size="2">&nbsp;</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">&nbsp;</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">to</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">&nbsp;</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Orbital 
+   flights</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">&nbsp;</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2"><b>project 1982</b></font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Payload 
+   weight</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">t</font></td>
+   <td valign="top" width="7%" align="center" height="1"><font size="2">GTO</font></td>
+   <td valign="top" width="7%" align="center" height="1"><font size="2">36</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Gross 
+   liftoff weight</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">t</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">4,747.0</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Gross 
+   propellant weight</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">t</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">4,077.9</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Total 
+   length</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">m</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">~95.5</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Max. diameter 
+   (span)</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">m</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">&nbsp;</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Total 
+   liftoff thrust (s.l.)</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">kN</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">61,507</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Total 
+   impulse (vac)</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">MN*s</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2"><b>14,633.5</b></font></td>
+  </tr>
+  <tr>
+   <td align="right" valign="top" width="5%" height="2" rowspan="3">
+   <p align="center"><b><font size="2">Fairing</font></b></p>
+   </td>
+   <td align="left" valign="middle" width="20%" height="2"><font size="2">Total 
+   length</font></td>
+   <td align="center" valign="top" width="5%" height="2"><font size="2">m</font></td>
+   <td valign="top" width="14%" height="2" align="center" colspan="2">
+   <font size="2">~26</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Diameter</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">m</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">&nbsp;</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Total 
+   weight</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">t</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">&nbsp;</font></td>
+  </tr>
+  <tr>
+   <td align="center" valign="top" width="5%" height="1" bgcolor="#C0C0C0"><b>
+   <font size="2">Stage </font></b><font size="2"><b>2</b></font></td>
+   <td align="center" valign="middle" width="20%" height="1" bgcolor="#C0C0C0">
+   <p align="left"><font size="2">Name</font></p>
+   </td>
+   <td align="center" valign="top" width="5%" height="1" bgcolor="#C0C0C0">
+   <font size="2">&nbsp;</font></td>
+   <td valign="top" width="14%" height="1" align="center" bgcolor="#C0C0C0" colspan="2" nowrap><font size="2"><b>&quot;Vesuvius&quot;</b></font></td>
+  </tr>
+  <tr>
+   <td align="right" valign="top" width="5%" rowspan="10" height="1">
+   <p align="center"><font size="2">&nbsp; </font></p>
+   </td>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Length</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">m</font></td>
+   <td valign="middle" width="14%" height="0" align="center" colspan="2" bordercolor="#000000"><font size="2">~15</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Diameter</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">m</font></td>
+   <td valign="middle" width="14%" height="0" align="center" colspan="2" bordercolor="#000000"><font size="2">~8.5</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Liftoff 
+   weight</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">t</font></td>
+   <td valign="middle" width="14%" height="0" align="center" colspan="2" bordercolor="#000000"><font size="2">~180.0</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Propellant 
+   weight</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">t</font></td>
+   <td valign="middle" width="14%" height="0" align="center" colspan="2" bordercolor="#000000"><font size="2">~157.9</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Engines 
+   (Chambers)</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">&nbsp;</font></td>
+   <td valign="middle" width="14%" height="0" align="center" colspan="2" bordercolor="#000000"><b><font size="2">RD-57</font></b></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Propellant</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">&nbsp;</font></td>
+   <td valign="middle" width="14%" height="0" align="center" colspan="2" bordercolor="#000000"><font size="2">LH2/LOX</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Total 
+   thrust (vac)</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">kN</font></td>
+   <td valign="middle" width="14%" height="0" align="center" colspan="2" bordercolor="#000000"><font size="2">392.0</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Specific 
+   impulse (vac)</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">N*s/kg</font></td>
+   <td valign="middle" width="14%" height="0" align="center" colspan="2" bordercolor="#000000"><font size="2">4472</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Burn time</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">s</font></td>
+   <td valign="middle" width="14%" height="0" align="center" colspan="2" bordercolor="#000000"><font size="2">1,800</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Total 
+   impulse (vac)</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">MN*s</font></td>
+   <td valign="middle" width="14%" height="0" align="center" colspan="2" bordercolor="#000000"><font size="2"><b>705.6</b></font></td>
+  </tr>
+  <tr>
+   <td align="center" valign="top" width="5%" height="1" bgcolor="#C0C0C0"><b>
+   <font size="2">Stage </font></b><font size="2"><b>1</b></font></td>
+   <td align="center" valign="middle" width="20%" height="1" bgcolor="#C0C0C0">
+   <p align="left"><font size="2">Name</font></p>
+   </td>
+   <td align="center" valign="top" width="5%" height="1" bgcolor="#C0C0C0">
+   <font size="2">&nbsp;</font></td>
+   <td valign="top" width="14%" height="1" align="center" bgcolor="#C0C0C0" colspan="2" nowrap><font size="2"><b>Core</b></font></td>
+  </tr>
+  <tr>
+   <td align="right" valign="top" width="5%" rowspan="10" height="1">
+   <p align="center"><font size="2">&nbsp; </font></p>
+   </td>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Length</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">m</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">~54.5</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Diameter</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">m</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">~9.5</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Liftoff 
+   weight</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">t</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">934.00</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Propellant 
+   weight</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">t</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">832.00</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Engines 
+   (Chambers)</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">&nbsp;</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2"><b>
+   <font size="2">RD-0120 (4)</font></b></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Propellant</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">&nbsp;</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">LH2/LOX</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Total 
+   thrust (vac)</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">kN</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">7,844</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Specific 
+   impulse (vac)</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">N*s/kg</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">4457</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Burn time</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">s</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">473</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Total 
+   impulse (vac)</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">MN*s</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2"><b>3,708.6</b></font></td>
+  </tr>
+  <tr>
+   <td align="center" valign="top" width="5%" height="1" bgcolor="#C0C0C0">
+   <font size="2"><b>Booster</b></font></td>
+   <td align="center" valign="middle" width="20%" height="1" bgcolor="#C0C0C0">
+   <p align="left"><font size="2">Name</font></p>
+   </td>
+   <td align="center" valign="top" width="5%" height="1" bgcolor="#C0C0C0">
+   <font size="2"><b>&nbsp;</b></font></td>
+   <td valign="top" width="14%" height="1" align="center" bgcolor="#C0C0C0" colspan="2"><b><font size="2">4x2</font></b></td>
+  </tr>
+  <tr>
+   <td align="right" valign="top" width="5%" rowspan="10" height="1">
+   <p align="center"><font size="2">&nbsp; </font></p>
+   </td>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Length</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">m</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">~41</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Diameter</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">m</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">3.9</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Liftoff 
+   weight</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">t</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">3,593.6</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Propellant 
+   weight</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">t</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">3,088.0</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Engines</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2"><b>&nbsp;</b></font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2"><b>
+   <font size="2">RD-17</font></b><font size="2"><b>2</b></font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Propellant</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">&nbsp;</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">Kerosene/LOX</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Total 
+   thrust (s.l.)</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">kN</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">61,507</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Specific 
+   impulse (s.l.)</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">N*s/kg</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">3049</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Burn time</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">s</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2">153</font></td>
+  </tr>
+  <tr>
+   <td align="left" valign="middle" width="20%" height="1"><font size="2">Total 
+   impulse (vac)</font></td>
+   <td align="center" valign="top" width="5%" height="1"><font size="2">MN*s</font></td>
+   <td valign="top" width="14%" height="1" align="center" colspan="2">
+   <font size="2"><b>10,219.3</b></font></td>
+  </tr>
+ </table>
+ </center>
+</div>
+
+</body>
+
+</html>
